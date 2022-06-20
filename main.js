@@ -1,4 +1,7 @@
+
+
 let navflag = true;
+
 let cateflag = true;
 
 const openCate = () => {
@@ -28,6 +31,9 @@ const openNav = () => {
     }
   };
 // 메인화면 슬릭
+$(document).ready(function(){
+
+
   $('.one-time').slick({
     dots: true,
     infinite: true,
@@ -110,4 +116,5 @@ const openNav = () => {
       } else {
           $('video').fadeIn();
       }
-  });
+  })
+})
